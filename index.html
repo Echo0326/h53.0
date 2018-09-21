@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>V领地青年社区</title>
+    <link rel="icon" href="/static/images/vlinker.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/static/images/vlinker.ico" type="image/x-icon">
+    <script type="text/javascript" src="/static/utils/rem_font.js"></script>
+    <link rel="stylesheet" href="/static/utils/layer/theme/default/layer.css">
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <style>
+      #app{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script src="/static/utils/fastclick.js"></script>
+    <script>
+      if ('addEventListener' in document) {
+        document.addEventListener('DOMContentLoaded', function() {FastClick.attach(document.body);}, false);
+      }
+      if(!window.Promise) {
+        document.writeln('<script src="/static/utils/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+      }
+    </script>
+    <script type="text/javascript" src="/static/utils/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="/static/utils/layer/layer.js"></script>
+    <script>
+      window.onload=function () {
+        document.getElementById('app').style.display='block'
+      }
+    </script>
+  </body>
+</html>
